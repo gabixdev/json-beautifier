@@ -3,7 +3,7 @@
 Extremely lightweight, simple and fast JSON beautifier for large files written in C++.
 
 - Doesn't load entire JSON file to memory, everything is done while streaming from stdin. **Note that JSON syntax isn't checked so passing invalid JSON data into this program may result in unpredictable results!**
-- Works well with huge JSON files.
+- Works well with huge JSON files (even 100+ GB).
 - Speed limited by i/o.
 - Under 100 lines of C++ code.
 - No dependencies (except STL).
