@@ -11,7 +11,7 @@ Extremely lightweight, simple and fast JSON beautifier for large files written i
 
 ## Compiling
 
-With CMake:
+**With CMake:**
 
 ```
 mkdir build
@@ -22,7 +22,7 @@ make
 
 ...or if you are Windows user try CMake GUI.
 
-Without CMake:
+**Without CMake:**
 
 Linux/macOS/Other Unixes:
 ```
