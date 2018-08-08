@@ -7,7 +7,7 @@ Extremely lightweight, simple and fast JSON beautifier for large files written i
 - Speed limited by i/o.
 - Under 100 lines of C++ code.
 - No dependencies (except STL).
-- Licensed under WTFPL so do anything you want ¯\_(ツ)_/¯
+- Licensed under WTFPL so do anything you want ¯\\\_(ツ)_/¯
 
 ## Compiling
 
