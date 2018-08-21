@@ -2,6 +2,7 @@
 // Licensed under WTFPL
 
 #include <iostream>
+#include <string>
 
 using namespace std;
 
