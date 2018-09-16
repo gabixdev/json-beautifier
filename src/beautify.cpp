@@ -7,7 +7,7 @@
 using namespace std;
 
 int main(int argc, char* argv[]) {
-	string whitespace = "    ";
+	const string whitespace = "    ";
 
 	long level = 0;
 	char c;
