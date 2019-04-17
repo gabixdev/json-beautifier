@@ -11,19 +11,11 @@ Extremely lightweight, simple and fast JSON beautifier for large files written i
 
 ## Compiling
 
-**With GNU Make:**
-
 ```
 make
 ```
 
-**Without CMake:**
-
-Linux/macOS/Other Unixes/MinGW:
-```
-gcc -o beautify beautify.c
-```
-(or if you want use `clang`)
+As simple as that.
 
 ## Usage
 
