@@ -1,22 +1,19 @@
 # json-beautifier
 
-Extremely lightweight, simple and fast JSON beautifier for large files written in C++.
+Extremely lightweight, simple and fast JSON beautifier for large files written in C.
 
 - Doesn't load entire JSON file to memory, everything is done while streaming from stdin. **Note that JSON syntax isn't checked so passing invalid JSON data into this program may result in unpredictable results!**
 - Works well with huge JSON files (even 100+ GB).
 - Speed limited by i/o.
-- Under 100 lines of C++ code.
-- No dependencies (except STL).
+- Under 80 lines of C code.
+- No dependencies.
 - Licensed under WTFPL so do anything you want ¯\\\_(ツ)_/¯
 
 ## Compiling
 
-**With CMake:**
+**With GNU Make:**
 
 ```
-mkdir build
-cd build
-cmake ..
 make
 ```
 
@@ -24,19 +21,11 @@ make
 
 **Without CMake:**
 
-Linux/macOS/Other Unixes:
+Linux/macOS/Other Unixes/MinGW:
 ```
-g++ -o beautify src/beautify.cpp
+gcc -o beautify beautify.c
 ```
-(or if you want use `clang++`)
-
-Windows:
-
-- Open Visual Studio prompt
-
-```
-cl /EHsc src\beautify.cpp /link /out:beautify.exe
-```
+(or if you want use `clang`)
 
 ## Usage
 
