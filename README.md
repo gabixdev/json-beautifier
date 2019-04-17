@@ -17,8 +17,6 @@ Extremely lightweight, simple and fast JSON beautifier for large files written i
 make
 ```
 
-...or if you are Windows user try CMake GUI.
-
 **Without CMake:**
 
 Linux/macOS/Other Unixes/MinGW:
