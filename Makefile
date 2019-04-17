@@ -1,6 +1,6 @@
 
 CC=gcc
-CFLAGS=-O3 -march=native
+CFLAGS=-O3 -march=native -std=c89
 
 .PHONY: clean all default
 
